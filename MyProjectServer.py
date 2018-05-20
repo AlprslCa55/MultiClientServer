@@ -6,7 +6,7 @@ global gosterim
 global kul_liste
 
 kul_liste = dict()
-gosterim = 12 * '-' + "Editor = |Çağrı ATALAR |" + 12 * '-'
+gosterim = 12 * '-' + "Editor = |AlprslCa55 |" + 12 * '-'
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
