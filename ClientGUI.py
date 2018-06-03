@@ -15,7 +15,7 @@ s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect((host,port))
 pencere = Tk()
 
-baslik = pencere.title("AtalarChat v0.1")
+baslik = pencere.title("AlpChat v0.1")
 pencere.resizable(width =False,height = False)
 pgen = 760
 pyuks = 380
@@ -32,7 +32,7 @@ def sendData():
             MesajBolge.delete(0,END)
     
 def hello():
-   messagebox.showinfo("AtalarChat v0.1", "Bu yazılımın tüm hakları saklıdır.Görsel dizayn, kodlama vb. her türlü işlev Çağrı Atalar tarafından yapılmıştır")
+   messagebox.showinfo("AlpChat v0.1", "Bu yazılımın tüm hakları saklıdır.Görsel dizayn, kodlama vb. her türlü işlev Alparslan tarafından yapılmıştır")
 
 scrollbar = Scrollbar(pencere)
 scrollbar.place()
@@ -67,7 +67,7 @@ pencere.geometry("{}x{}+{}+{}".format(pgen,pyuks,x,y))
 pencere.mainloop()
 
 pencere = Tk()
-baslik = pencere.title("AtalarChat v0.1")
+baslik = pencere.title("AlpChat v0.1")
 frame = Frame(pencere,width = 360,height = 768)
 
 pencere.geometry("768x360+500+400")
